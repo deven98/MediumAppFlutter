@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(article.author, style: TextStyle(fontSize: 18.0),),
-                              Text(article.date + " . " + article.readTime, style: TextStyle(color: Colors.black45, fontWeight: FontWeight.w500),)
+                              Text(article.date + " \u{00B7} " + article.readTime, style: TextStyle(color: Colors.black45, fontWeight: FontWeight.w500),)
                             ],
                           ),
                           Icon(Icons.bookmark_border),
